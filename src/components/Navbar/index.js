@@ -10,7 +10,6 @@ const Navbar = () => {
       <Title src={imageUrl} />
       <SideMenuWrapper>
         {MenuItems.map((item)=>(
-            
           <MenuItem>{item}</MenuItem>
         ))}
         <MenuItem>

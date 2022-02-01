@@ -32,4 +32,7 @@ export const MenuItem = styled.a`
   &:hover{
     color: black;
   }
+  &:first-child {
+    color: black;
+  }
 `
