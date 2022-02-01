@@ -10,7 +10,7 @@ const Navbar = () => {
       <Title src={imageUrl} />
       <SideMenuWrapper>
         {MenuItems.map((item)=>(
-          <MenuItem>{item}</MenuItem>
+          <MenuItem key={item.toString()}>{item}</MenuItem>
         ))}
         <MenuItem>
           <FaSearch size={24} />
