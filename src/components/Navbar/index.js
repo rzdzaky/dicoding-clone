@@ -4,11 +4,13 @@ import { FaSearch} from 'react-icons/fa'
 import { MenuItems } from './MenuItems';
 
 const Navbar = () => {
+
   return (
     <NavbarWrapper>
       <Title src={imageUrl} />
       <SideMenuWrapper>
         {MenuItems.map((item)=>(
+            
           <MenuItem>{item}</MenuItem>
         ))}
         <MenuItem>
